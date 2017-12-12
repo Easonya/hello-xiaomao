@@ -1,55 +1,129 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>6.5世界环境日 践行绿色生活</title>
-<style type="text/css">
-   .one{
-	   color:green;
-	   text-align:center;
-   }
-   .two{
-	   text-indent:2em;
-   }
-</style>
-</head>
-<body>
-<h1 class="one">6.5世界环境日 践行绿色生活</h2>
-<section>
-   <ul class="slider">
-   <a href="1.html" title="6.5" target="_blank">•遥望一片绿</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <a href="11.html" title="6.5" target="_blank">•涌起万千漪</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <a href="12.html" title="6.5" target="_blank" >•憧憬好未来</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <a href="3.html" title="6.5" target="_blank">•幻想美天地</a>&nbsp;&nbsp;&nbsp;
-   </ul>
-<nav>
-      <P align="center">
-       <a href="5.html" title="6.5" target="_blank"> <img src="9.png"></a>
-       <a href="6.html"title="6.5" target="_blank" > <img src="10.png" ></a>
-       <a href="8.html"title="6.5" target="_blank" > <img src="13.png" ></a>
-       <a href="4.html"title="6.5" target="_blank" > <img src="12.png"></a>
-      </P>
-</nav>
-<article>
-      <details>
-            <summary >世界环境日</summary>
-                <li>
-                    <figcaption>世界环境日</figcaption>
-                    <p>世界环境日为每年的6月5日，它反映了世界各国人民对环境问题的认识和态度，表达了人类对美好环境的向往和追求。它是联合国促进全球环境意识、提高政府对环境问题的注意并采取行动的主要媒介之一。 联合国环境规划署每年6月5日选择一个成员国举行“世界环境日”纪念活动，发表《环境现状的年度报告书》及表彰“全球500佳”，并根据当年的世界主要环境问题及环境热点，有针对性地制定“世界环境日”主题，总称世界环境保护日。</p>
-   </section>
-                <nav>
-      <P align="center">
-       <a href="7.html" target="_blank"> <img src="20.jpg"></a>
-      </P>
-                <nav>
-      <P align="center">
-         <a href="10.html" target="_blank"><img src="timg.jpg"></a>
-      </P>    
-                    
-                    <div class="scroll" id="scroll" style="display:none;">
-    <a href="20.jpg" class="backToTop">返回顶部</a>
-              </div>
-                    </li> 
-                    </html>
-</html>
+<meta charset="UTF-8">
 
+<title>小猫</title>
+  <link rel="stylesheet" href="jquery-ui.structure.css">
+  <link rel="stylesheet" href="jquery-ui.theme.css">
+    <link rel="stylesheet" href="  jquery.fallingsnow.css">
+   <script src="jquery.js"></script>
+  <script src="jquery-ui.min.js"></script>
+
+  <script type="text/javascript">
+
+$( document ).click(function() {
+  $( "#toggle" ).toggle( "explode" );
+});
+
+  </script>
+
+</head>
+  <style>  
+        .wrap {height: 40px; position: relative;}  
+        .wrap div {position: absolute;} 
+        .wrap{font-family:"Times New Roman",Georgia,Serif; font-size: 50px;} 
+        .wrap1{font-family:"Times New Roman",Georgia,Serif; font-size: 50px;color:green;}
+    </style>  
+
+<body>  
+
+<div class="wrap1"><div id="div">Hello!My web page!</div></div>  
+<div class="wrap1"><div id="div2">Hello!My web page!</div></div>  
+<div class="wrap"><div id="div3">I AM SO HAPPY!</div></div>  
+<div class="wrap"><div id="div4">Hello!My web page!</div></div>  
+<script>  
+   
+    $('#div').fadeOut(2000);  
+      
+  
+    $('#div2').slideUp(2000, function() {console.log('Hello!My web page!'); });  
+      
+    
+    $('#div3').animate({left: '200px'}, 1000).delay(1000).animate({left: 0}, 1000).fadeOut(1000);  
+    
+    (function() {  
+        $('#div4').animate({left: '200px'}, 1000).animate({left: 0}, 1000, arguments.callee);  
+    })();  
+</script>  
+<body>
+
+
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px;">
+<div class="toggle">
+        <div id="toggle">
+          
+      <li><img src="tupian/50.jpg"> </li>
+    </ul>
+  </div>
+
+</div>
+
+
+ <p style="font-family:幼圆; font-size: 25px">点击任意地方进行震动</p>
+<div id="toggle"></div>
+ 
+<script>
+$( document ).click(function() {
+  $( "#toggle" ).effect( "shake" );
+});
+</script>
+
+</div>
+
+</div>
+
+    <section>
+        <div id="snow"></div>
+      </div>
+    </section>
+  </div>
+  
+  <script src="jquery.fallingsnow.js"></script>
+  <script>
+    $( "#snow" ).fallingSnow();   
+  </script>
+
+  <div id="accordion">
+  <h3>刻不容缓爱绿护绿</h3>
+  <div>
+    <p>
+ 
+    </p>
+  </div>
+  <h3>•遥望一片绿</h3>
+  <div>
+    <p>
+    曾几何时，人类中心论把人捧到自然系统中至高无上的位置，认为人类在自然面前可以为所欲为，而自然在人类面前只有逆来顺受。这种以老大自居的观点，导致人类向大自然任意索取，任意排放污染物。结果，沙丘吞噬了万顷良田，洪水冲毁了可爱的家园，大自然的报复让人类尴尬哑然。梅水溪曾经说过，没有自然，便没有人类，这是世界最为朴素的真理。一味地掠夺自然，征服自然，只会破坏生态环境，使人类濒于困境。人不给自然留面子，自然当然也不会给人留后路，1998年的洪水、2000年的沙尘暴，就是大自然向人类发出的警示。
+    </p>
+  </div>
+  <h3>•涌起万千漪</h3>
+  <div>
+    <p>
+ 曾几何时，人们乱捕乱杀，使人类的朋友惨遭涂炭。“千山鸟飞绝，万径人踪灭”，这就是对捕杀动物后果的最真实的写照。从大学生的伤熊事件到愚人们的疯狂捕猎，人类是否也将要把枪口对准自己？切记，保护动物就等于保护我们自己。
+
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>•幻想美天地</h3>
+  <div>
+    <p>
+ 
+曾几何时，战争的爆发，使我们赖以生存的星球满目疮痍。炮火对植被的破坏，核辐射对生命的摧残，尽管广岛、长崎上空的蘑菇云已经散去了半个多世纪，可那里依然还是不毛之地。由此可见，和平是全人类绿色环保的重要前提。
+    </p>
+    <p>
+ 真不敢想象，我们如果再这样继续下去，这个世界将会是一幅怎样的惨景呢？地上寸草不生，天空尘沙弥漫，人类将在魔鬼般的尖叫声中化成堆堆白骨。到那时我们只能说，人类曾经属于过地球，但地球将永远不会再属于人类了。   
+    </p>
+  </div>
+</div>
+<script>
+  $(function() {
+    $( "#accordion" ).accordion();
+  });
+  </script>
+</body>
+</html>
